@@ -530,7 +530,7 @@ Define the number in the system as seen by the $k$th arrival  as
   \label{eq:Lk}
   L(A_k-),
 \end{equation}
-where $L(A_k-) = \lim_{h\downarrow 0} L(A_k - h)$. (Observe that the $k$th job arrives at time $A_k$ and $\{L(s)\}$ is right-continuous.)
+where $L(A_k-) = \lim_{h\downarrow 0} L(A_k - h)$. (Observe that the $k$th job arrives at time $A_k$ and $\{L(s)\}$ is right-continuous).
 
 Can you derive the following (algorithmic efficient) procedure to
     compute the number of jobs in the system as seen by arrivals,
@@ -614,7 +614,7 @@ $V(A_{A(t)}) + A_{A(t)}-t$?
       The notation may be a bit confusing, but it is in fact very
       simple. Take some $t$, look back at the last arrival time before
       time $t$, which is written as $A_{A(t)}$. (In computer code these
-      times are easy to find.) Then draw a line with slope $-1$ from
+      times are easy to find). Then draw a line with slope $-1$ from
       the waiting time that the last arrival saw.
     \end{solution}
 \end{exercise}
@@ -623,7 +623,7 @@ $V(A_{A(t)}) + A_{A(t)}-t$?
 
 
 \begin{exercise}  Try to extend the recursions~(\ref{eq:45})  to a situation in which one queue is
-  served by two servers.  (This is a hard problem, only for the interested.)
+  served by two servers.  (This is a hard problem, only for the interested).
     \begin{hint} The problem is
       that in a multi-server queueing systems, unlike for
       single-server queues, jobs can overtake each other: a small job
